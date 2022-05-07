@@ -1,0 +1,28 @@
+.blog__subtitle {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #646464;
+}
+
+.blog__title {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 28px;
+    color: #111111;
+}
+
+.blog__list {
+    display: flex;
+}
+
+.list {
+    list-style: none;
+}
+    
+.link {
+    text-decoration: none;
+}
