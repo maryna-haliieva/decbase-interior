@@ -3,4 +3,77 @@
  * Главный файл стилей.
  * Все паршалы подключаются сюда.
  */
+.about-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-margine {
+  margin-right: 170px;
+}
+
+.about-us__header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #646464;
+}
+
+.about-us__text-content {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.19;
+  color: #212121;
+}
+
+.about-us__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  color: #646464;
+}
+
+.about-us__button {
+  background-color: #37806b;
+  border: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.blog__subtitle {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #646464;
+}
+
+.blog__title {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 28px;
+  color: #111111;
+}
+
+.blog__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
 /*# sourceMappingURL=main.css.map */
