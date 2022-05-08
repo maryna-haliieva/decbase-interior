@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://maryna-haliieva.github.io/decbase-languages",
+  "homepage": "https://maryna-haliieva.github.io/decbase-interior",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /decbase-languages/"
+    "build": "parcel build src/*.html --public-url /decbase-interior/"
   },
   "repository": {
     "type": "git",
