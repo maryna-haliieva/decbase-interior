@@ -26,6 +26,7 @@
     text-transform: uppercase;
     color: #646464;
     margin-bottom: 20px;
+    margin-top: 0;
 }
 
 .blog__title {
@@ -35,6 +36,7 @@
     line-height: 28px;
     color: #111111;
     margin-bottom: 60px;
+    margin-top: 0;
 }
 
 .blog__list {
@@ -85,6 +87,7 @@
     line-height: 28px;
     color: #212121;
     margin-bottom: 18px;
+    margin-top: 0;
 }
 
 .blog__description {
@@ -94,6 +97,7 @@
     line-height: 28px;
     color: #646464;
     margin-bottom: 44px;
+    margin-top: 0;
 }
 
 .blog__btn {
@@ -109,18 +113,6 @@
     width: 270px;
     display: block;
     text-align: center;
-}
-
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 ul {
