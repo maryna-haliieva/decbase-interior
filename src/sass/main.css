@@ -3,4 +3,274 @@
  * Главный файл стилей.
  * Все паршалы подключаются сюда.
  */
+img {
+  display: block;
+  height: auto;
+}
+
+.header {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.75;
+  text-transform: uppercase;
+  color: #646464;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  display: block;
+  text-decoration: none;
+  color: #646464;
+}
+
+.conteiner__header {
+  width: 1400px;
+  padding: 0 27px;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-list__item:not(:first-child) {
+  margin-left: 44px;
+}
+
+.nav-link__link {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  -webkit-transition: color 250ms linear;
+  transition: color 250ms linear;
+}
+
+.nav-link__link:hover,
+.nav-link__link:focus {
+  color: #2a2a2a;
+}
+
+.header__btn {
+  margin-left: 64px;
+  padding: 5px 19px;
+  display: inline-block;
+  background-color: #CAA892;
+  border-radius: 15px 0px;
+  border: transparent;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.38;
+  color: #FFFFFF;
+  -webkit-transition: background-color 250ms linear, -webkit-box-shadow 250ms linear;
+  transition: background-color 250ms linear, -webkit-box-shadow 250ms linear;
+  transition: background-color 250ms linear, box-shadow 250ms linear;
+  transition: background-color 250ms linear, box-shadow 250ms linear, -webkit-box-shadow 250ms linear;
+}
+
+.header__btn:hover,
+.header__btn:focus {
+  cursor: pointer;
+  background-color: #c6906d;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.about-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blog__subtitle {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #646464;
+}
+
+.blog__title {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 28px;
+  color: #111111;
+}
+
+.blog__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  display: block;
+  text-decoration: none;
+  color: #646464;
+}
+
+.footer {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 2.22;
+  color: #646464;
+}
+
+.footer__container {
+  background-color: #F8F8F8;
+  width: 1400px;
+  padding: 93px 27px 22px;
+  margin: 0 auto;
+}
+
+.footer-up__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 69px;
+}
+
+.logo__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 350px;
+}
+
+.footer__logo {
+  margin-bottom: 15px;
+}
+
+.footer__description {
+  margin: 0;
+  line-height: 1.56;
+}
+
+.wrapper__quick-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 36px;
+}
+
+.footer__text {
+  margin: 0 0 15px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.67;
+  color: #212121;
+}
+
+.wrapper__company {
+  margin-left: 102px;
+}
+
+.wrapper__contact-us {
+  margin-left: 102px;
+}
+
+.wrapper__social {
+  margin-left: 54px;
+}
+
+.social__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social__link {
+  padding: 8px;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background-color: #D5D5D5;
+  -webkit-transition: background-color 250ms linear;
+  transition: background-color 250ms linear;
+}
+
+.social__link:hover,
+.social__link:focus {
+  background-color: #37806B;
+}
+
+.social__item:not(:first-child) {
+  margin-left: 8px;
+}
+
+.footer-down__wrapper {
+  position: relative;
+}
+
+.copyright {
+  margin: 0;
+  text-align: center;
+  line-height: 1.39;
+}
+
+.copyright__accent {
+  color: #37806B;
+}
+
+.copyright::before {
+  position: absolute;
+  top: -15px;
+  left: -27px;
+  content: "";
+  display: block;
+  width: 1400px;
+  height: 1px;
+  background-color: #C4C4C4;
+}
 /*# sourceMappingURL=main.css.map */
